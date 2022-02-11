@@ -39,7 +39,7 @@ const App = () => {
       key: '3',
       sn: '3',
       date: '1/7/2022',
-      phone: '09329319310313',
+      phone: '09429319310313',
       email: 'test@gmail.com',
       firstName: 'John',
       lastName: 'Brown',
