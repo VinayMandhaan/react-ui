@@ -5,3 +5,48 @@
 #modalInput::placeholder {
     color: #606062
 }
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.inviteCard {
+    background-color: #00afef;
+    width: 180px;
+    align-content: center;
+    text-align:center;
+    padding-top: 10px;
+    border-radius: 25px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inviteCardContainer {
+    margin: 20px;
+}
+
+.inviteMainCard {
+    background-color: #00afef;
+    width: 100%;
+    align-content: center;
+    text-align:center;
+    padding-top: 10px;
+    border-radius: 25px;
+    height: 190px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+@media screen and (max-width: 320px) {
+    .cardContainer{
+        margin: 0px;
+    }
+  }
