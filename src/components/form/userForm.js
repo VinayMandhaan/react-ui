@@ -18,36 +18,36 @@ const UserForm = () => {
     );
     return (
         <div>
-            <div style={{ display: 'flex', flexDirection: 'row', margin: 40, width: '100%', justifyContent: 'center' }}>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="First Name" />
+            <div className='mainContainer'>
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="First Name" />
                 </div>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Last Name" />
-                </div>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'row', margin: 40, width: '100%', justifyContent: 'center' }}>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Company" />
-                </div>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Location" />
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Last Name" />
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'row', margin: 40, width: '100%', justifyContent: 'center' }}>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Phone" />
+            <div className='mainContainer'>
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Company" />
                 </div>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Email" />
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Location" />
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'row', margin: 40, width: '100%', justifyContent: 'center' }}>
-                <div style={{ margin: 20 }}>
-                    <Input id='modalInput' style={{ paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }} placeholder="Total Invested" />
+            <div className='mainContainer'>
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Phone" />
                 </div>
-                <div style={{ margin: 20 }}>
-                <div style={{ paddingLeft: '10px', paddingTop: '10px', backgroundColor: '#e6e7e8', color: '#606062', width: '320px', borderRadius: 5 }}>
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Email" />
+                </div>
+            </div>
+            <div className='mainContainer'>
+                <div className='inputContainer'>
+                    <Input id='modalInput' className='formInput' placeholder="Total Invested" />
+                </div>
+                <div className='inputContainer'>
+                <div className='dropDownInput'>
                     <Dropdown overlay={menu} trigger={['click']}>
                         <div style={{display:'flex', justifyContent:'space-between', paddingLeft:'2px', paddingRight:'10px',}}>
                             <div>
@@ -64,10 +64,10 @@ const UserForm = () => {
                 </div>
                 </div>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'row', margin: 40, width: '100%', justifyContent: 'center' }}>
-                <div style={{ margin: 20, width:'36%', display:'flex', justifyContent:'center'}}>
-                    <button style={{width:'100%',backgroundColor:'#3e4095',color:'white', fontWeight:'bold'}}>
-                        <p style={{margin:5}}>Submit</p>
+            <div className='mainContainer'>
+                <div className='buttonContainer'>
+                    <button className='formButton'>
+                        <p className='buttonText'>Submit</p>
                     </button>
                 </div>
             </div>

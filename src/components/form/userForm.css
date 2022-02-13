@@ -1,0 +1,68 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.inputContainer {
+    margin: 20px;
+}
+
+.formInput {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e6e7e8;
+    color: #606062;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.dropDownInput {
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #e6e7e8;
+    color: #606062;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.buttonContainer {
+    margin: 20px;
+    width: 36%;
+    display: flex;
+    justify-content: center;
+}
+
+.formButton {
+    width: 100%;
+    background-color: #3e4095;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonText {
+    margin: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+    }
+    .formInput {
+        width: 300px;
+    }
+    .dropDownInput {
+        width: 300px;
+    }
+    .buttonContainer {
+        width: 100%;
+    }
+    .formButton {
+        width: 40%;
+    }
+  }

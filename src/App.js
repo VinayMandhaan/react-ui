@@ -9,7 +9,7 @@ import UserForm from './components/form/userForm';
 const App = () => {
   return (
     <div>
-      <UserCard/>
+      <UserForm/>
     </div>
   )
 }
