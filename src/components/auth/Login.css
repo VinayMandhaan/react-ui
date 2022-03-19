@@ -1,0 +1,61 @@
+.mainPage {
+    background-color: #86d9f7;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.leftContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.inputContainer {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inputText {
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e6e7e9;
+    color: #929395;
+    font-weight: bold;
+}
+
+.logoContainer {
+    margin-left: 40px;
+}
+
+.buttonStyle {
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3e4095;
+    color: white;
+    font-weight: bold;
+}
+
+.containerImg {
+    height: 650px;
+}
